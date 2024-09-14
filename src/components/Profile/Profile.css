@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-page .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-details,
+  .purchase-history {
+    margin-bottom: 20px;
+  }
+  
+  .user-details h2,
+  .purchase-history h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .user-details p,
+  .purchase-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .purchase-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .purchase-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .purchase-card h3 {
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .purchase-card p {
+    margin: 5px 0;
+  }
+  
+  .purchase-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .purchase-card {
+      flex: 1 1 calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .purchase-cards {
+      flex-direction: column;
+    }
+    .purchase-card {
+      flex: 1 1 100%;
+    }
+  }
+  

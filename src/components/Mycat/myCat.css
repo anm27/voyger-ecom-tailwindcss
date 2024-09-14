@@ -1,0 +1,106 @@
+.bg-blue-cat {
+  background-color: blue;
+}
+
+.my-d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+
+.bg-cat1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://voyger.online/voyger/assets/cat-img/clothing.webp");
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+  width: 100%;
+  background-attachment: scroll;
+  border-radius: 12px;
+}
+
+.bg-cat2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://voyger.online/voyger/assets/cat-img/herbal.webp");
+  background-size: cover;
+  background-position: bottom;
+  height: 15vh;
+  width: 100%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.bg-cat3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://voyger.online/voyger/assets/cat-img/health.webp");
+  background-size: cover;
+  background-position: cover;
+  height: 15vh;
+  width: 100%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.bg-cat4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://voyger.online/voyger/assets/cat-img/grocery.webp");
+  background-size: cover;
+  background-position: cover;
+  height: 15vh;
+  width: 100%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.bg-cat5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://voyger.online/voyger/assets/cat-img/dailylife.webp");
+  background-size: cover;
+  background-position: cover;
+  height: 15vh;
+  width: 100%;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.my-m-x {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.my-m-y {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.m-y-my {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-text-white {
+  color: #fff;
+}
+
+.my-center {
+  display: flex;
+  height: 15vh;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slide > div {
+  padding: 0 10px; /* Ensures padding inside each slide */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Adjusts the slider track to prevent overflow */
+}
